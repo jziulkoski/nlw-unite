@@ -134,7 +134,6 @@ const adicionarParticipante = (event) => {
     participantes = [participante, ...participantes]
     atualizarLista(participantes)
 
-    // limpar formulário
     event.target.querySelector('[name="nome"]').value = ""
     event.target.querySelector('[name="email"]').value = ""
 }
