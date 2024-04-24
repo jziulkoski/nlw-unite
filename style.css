@@ -39,6 +39,7 @@ fieldset {
 fieldset > div {
     display: flex;
     gap: 12px;
+    flex-wrap: wrap;
 }
 
 .input-wrapper{
